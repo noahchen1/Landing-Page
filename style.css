@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.nav ul{
+    display: inline-block;
+    margin: 0 1.5em;
+    font-weight: 700;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    color: burlywood;
+}
+
+
+.showcase {
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.showcase video{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+.text {
+    position: absolute; 
+    z-index: 2;
+    margin: auto;
+    top: 35%;
+    right: 0;
+    left: 0;
+    text-align: center; 
+    width: 70%;
+}
+
+.text h2 {
+    font-size: 3.5em;
+    font-weight: 800;
+    color: white;
+    display: inline-block;
+    margin: 1em 0;
+    max-width: 600px;
+}
+
+.text h3 {
+    margin-bottom: 1em;
+    color: white;
+}
+
+.text a {
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 9px;
+    background-color: white;
+    padding: 15px 45px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+.text a:hover {
+    color: white;
+    background-color: burlywood;
+}
+
+.promo-section-lead {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+.promo-section-lead h1 {
+    font-size: 2em;
+}
+
+.eyeCatcher {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5em 10em;
+    justify-content: space-around;
+}
+
+.promo-message img {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.promo-text {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 2em 0;
+}
+
+.promo-text h2 {
+    margin-bottom: 1em;
+}
+
+.promo-btn {
+    text-align: center;
+    margin-bottom: 10em;
+}
+
+.promo-btn a{
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 9px;
+    background-color: burlywood;
+    padding: 15px 45px;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+.promo-btn a:hover {
+    background-color: black;
+}
+
+.featured h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.featured-product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5em 10em;
+}
+
+.featured-product {
+    padding: 2em;
+    margin: 2em 0;
+}
+
+
+.featured-product h3 {
+    text-align: center;
+}
+
+.cutting-board1-img {
+    background: url("featured_Image/cuttingboard1H.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 450px;
+    height: 350px;
+    margin-bottom: 2em;
+    transition: 0.2s ease;
+}
+
+.cutting-board1-img:hover {
+    background-image: url("featured_Image/cuttingboard1.png");
+}
+
+
+.cutting-board2-img {
+    background: url("featured_Image/cuttingboard2H.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 450px;
+    height: 350px;
+    margin-bottom: 2em;
+    transition: 0.2s ease;
+}
+
+.cutting-board2-img:hover {
+    background-image: url("featured_Image/cuttingboard2.jpg");
+}
+
+.cutting-board3-img {
+    background: url("featured_Image/cuttingboard3H.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 450px;
+    height: 350px;
+    margin-bottom: 2em;
+    transition: 0.2s ease;
+}
+
+.cutting-board3-img:hover {
+    background-image: url("featured_Image/cuttingboard3.jpg");
+}
+
+.cutting-board4-img {
+    background: url("featured_Image/cuttingboard4H.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 450px;
+    height: 350px;
+    margin-bottom: 2em;
+    transition: 0.2s ease;
+}
+
+.cutting-board4-img:hover {
+    background-image: url("featured_Image/cuttingboard4.jpg");
+}
+
+.cutting-board5-img {
+    background: url("featured_Image/cuttingboard5H.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 450px;
+    height: 350px;
+    margin-bottom: 2em;
+    transition: 0.2s ease;
+}
+
+.cutting-board5-img:hover {
+    background-image: url("featured_Image/cuttingboard5.jpg");
+}
+
+.cutting-board6-img {
+    background: url("featured_Image/cuttingboard6H.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 450px;
+    height: 350px;
+    margin-bottom: 2em;
+    transition: 0.2s ease;
+}
+
+
+.cutting-board6-img:hover {
+    background-image: url("featured_Image/cuttingboard6.jpg");
+}
+
+.footer-break {
+    width: 95%;
+
+}
+
+/* Footer Links */
+
+.footer-links-container {
+    display: flex;
+    position: relative;
+}
+
+/* Back to top btn */
+
+.arrowHead {
+    font-size: 48px;
+}
+
+.topBtn {
+    position: absolute;
+    right: 4em;
+    color: white;
+    background-color: burlywood;
+    border-style: none;
+    padding: 1em 1.5em;
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.topBtn:hover {
+    background-color: black;
+    border-style: none;
+}
+
+.footer-links {
+    margin: 3em 3em;
+
+}
+
+.footer-links h3 {
+    margin: 1em 0;
+    font-weight: 400;
+}
+
+.footer-links a {
+    color: black;
+    text-decoration: none;
+    margin: 0.5em 0;
+}
+
+.footer-links a:hover {
+    color: burlywood;
+}
+
+/* Copyright */
+
+.socialCopyright {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.copyright{
+    position: absolute;
+    right: 3em;
+    bottom: 1em;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.social {
+    margin-top: 8em;
+    margin-left: 3em;
+}
+
+/* Social Media Icon */
+
+.social-icon {
+    display: flex; 
+    justify-content: space-between;
+    width: 130px;
+    margin: 0.5em -0.5em;
+}
+
+.social-icon a{
+    font-size: 1.5em;
+}
+
+.fa {
+    padding: 2px;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.fa:hover {
+    color:burlywood;
+}
+  
+.fa-facebook {
+    color: black;
+}
+
+.fa-instagram {
+    color: black;
+}
+
+.fa-twitter {
+    color: black;
+}
